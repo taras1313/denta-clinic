@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.font-comf {
+    /*font-family: 'Comfortaa', cursive;*/
+    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'IBM Plex Sans', sans-serif;*/
+
+}
+
+.dark-gray {
+    color: #696969;
+}
+
+.light-gray {
+    color: #a9a9a9;
+}
+

@@ -1,0 +1,267 @@
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center ;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    transition: .3s
+
+}
+
+.parallax-bg-v1 {
+    background-image: url(img/bg1.jpg);
+
+}
+
+.parallax-bg-v2 {
+    background-image: url(img/bg2.jpg);
+
+}
+
+.parallax-bg-v3 {
+    background-image: url(img/bg3.jpg);
+
+}
+
+.parallax-bg-v4 {
+    background-image: url(img/bg4.jpg);
+    background-position: right ;
+}
+
+
+
+
+.profit-line {
+    padding: 20px;
+    border-top: 1px solid lightskyblue;
+    background: rgba(0,123,255,0.9);
+}
+
+.profit-line i {
+    font-size: 77px;
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.profit-line span {
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+    /*padding-left: 17px;*/
+    text-align: left;
+    font-weight: bold;
+    align-self: center;
+}
+
+
+.desctiption {
+    background: rgba(43,43,43,0.85);
+    /*min-height: 420px;*/
+    padding: 40px 0
+}
+
+@media screen and (max-width:600px) {
+
+    .desctiption h1 {
+        font-size: 22px!important;
+    }
+    .desctiption p.media {
+        font-size: 16px!important;
+    }
+}
+
+
+
+.welcome h1 {
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 1.5;
+}
+
+.welcome {
+    color: #d3d3d3;
+}
+
+.welcome a {
+    border: 3px solid #ddd;
+    color: #dddddd;
+    /*width: 235px;*/
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-transition: .2s time;
+    -moz-transition: .2s time;
+    -ms-transition: .2s time;
+    -o-transition: .2s time;
+    transition: .2s ;
+}
+
+.welcome a:hover {
+    color: #007bff;
+    background: white;
+    border-color: white;
+    -webkit-transition: .2s time;
+    -moz-transition: .2s time;
+    -ms-transition: .2s time;
+    -o-transition: .2s time;
+    transition: .2s ;
+}
+
+.welcome>p {
+    font-size: 21px;
+
+}
+
+p.short {
+    font-size: 14px;
+    width: 230px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+    vertical-align: sub;
+}
+
+.tooth i {
+    font-size: 335px;
+    color: lightgray;
+    opacity: 0.8;
+}
+
+
+
+.h-template {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 4% 0;
+    /*padding: 4% 3%;*/
+    /*margin: 85px auto ;*/
+    margin: 65px auto ;
+}
+
+.h-template h2 {
+    font-size: 36px;
+}
+
+.bordered {
+    width: 90px;
+    height: 5px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+.h-template>p {
+    max-width: 560px;
+    color: #808080;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.b-template h3{
+    font-size: 22px;
+    color: #808080;
+    font-weight: bold;
+}
+
+.b-template p{
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-bottom: 10px;
+    padding: 0 7px;
+    max-width: 400px;
+}
+
+.b-template i {
+    font-size: 120px;
+    color: #007bff;
+    margin-bottom: 35px;
+    opacity: 0.7;
+    transition: 0.3s
+}
+
+.b-template i:hover {
+    opacity: 1;
+    transition: 0.3s;
+    font-size: 130px;
+}
+
+.service {
+    background: rgba(238,238,238,1);
+}
+
+.service>div>div {
+    border: 0px;
+}
+
+.card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card h5 {
+    font-weight: bold;
+    color: #696969
+}
+
+.card small {
+    font-style: italic;
+    color: #007bff!important;
+}
+
+.bg-img {
+    background-image: url("img/about-us.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4% 3%;
+    color: white;
+
+}
+
+.yt-video {
+    width: 70%;
+    height: 400px;
+
+}
+
+@media screen and (max-width:700px){
+    .yt-video {
+        width: 90%;
+        height: 290px;
+
+    }
+}
+
+.our-docs {
+    padding: 40px 20px
+}
+
+
+/*.doc{*/
+    /*border: 1px solid #dddddd;*/
+    /*border-radius: 4px;*/
+/*}*/
+
+/*.doc img {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+
+/*temp style*/
+
+.doc2-img {
+    /*height: 84%;*/
+    /*overflow: hidden;*/
+    /*background-image: url("img/doc2.jpg");*/
+}

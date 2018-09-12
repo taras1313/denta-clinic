@@ -1,0 +1,50 @@
+.fs-31 {
+    font-size: 31px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.br-b {
+    border-bottom: 5px solid #c8c1c1;
+}
+.name {
+    /*letter-spacing: -1px;*/
+}
+
+
+.contact a{
+    border: 3px solid darkred;
+    /*border: 3px solid #007bff;*/
+    border-radius: 4px;
+    transition: .3s;
+    font-size: 20px;
+    padding: 7px 25px;
+    color: darkred;
+    /*color: #007bff;*/
+    opacity: 0.7;
+}
+
+.contact a:hover{
+    background: darkred;
+    /*background: #007bff;*/
+    color: white;
+    transition: .3s;
+}
+
+@media screen and (max-width:992px) {
+    .contact {
+        text-align: left!important;
+
+    }
+    .contact a {
+        font-size: 16px;
+        padding: 7px 17px;
+        border-width: 2px;
+    }
+}

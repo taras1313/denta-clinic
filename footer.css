@@ -1,0 +1,110 @@
+footer {
+    background: rgba(238,238,238,1);
+    padding: 4% 3%;
+}
+
+form {
+    margin-top: 15px
+}
+
+.c-form {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.form, .address {
+    padding: 30px
+}
+
+.form h3,.address h3 {
+    font-size: 35px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.form input, .form textarea {
+    border: 1px solid #bbb0b0;
+    border-radius: 4px;
+    width: 390px;
+    height: 42px;
+    padding: 0 7px;
+    color: #696969;
+}
+
+.form textarea {
+    border: 1px solid #bbb0b0;
+    border-radius: 4px;
+    width: 390px;
+    height: 90px;
+    padding: 0 7px
+}
+
+
+.form label {
+    font-size: 16px;
+    color: #007bff;
+    margin-bottom: 18px;
+}
+
+.form .submiter {
+    border: 3px solid #007bff;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    background: white;
+    color: #007bff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    transition: 0.2s;
+}
+
+.form .submiter:hover {
+    background: #007bff;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.address ul{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.address ul li{
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width:992px) {
+    .form {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .form input, .form textarea {
+       width: 220px;
+
+    }
+    .form, .address {
+        padding: 20px 10px
+    }
+    .form h3, .address h3 {
+        font-size: 29px;
+    }
+}
+
+.g-map {
+    width: 100%;
+    height: 355px
+}
+
+.copyright {
+    background: rgba(220,222,224,1);
+    color: #a9a9a9;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px 10px;
+}
