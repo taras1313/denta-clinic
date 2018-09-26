@@ -17,11 +17,26 @@
     /*letter-spacing: -1px;*/
 }
 
+header i {
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+    background: #007bff;
+    color: white;
+    padding: 6px;
+    border-radius: 86px;
+}
+
+header i::before {
+    display: block;
+    transform: rotate(-45deg);
+}
 
 .contact a{
     border: 3px solid darkred;
     /*border: 3px solid #007bff;*/
-    border-radius: 4px;
+    /*border-radius: 10px;*/
+    border-radius: 33px;
     transition: .3s;
     font-size: 20px;
     padding: 7px 25px;
@@ -47,4 +62,15 @@
         padding: 7px 17px;
         border-width: 2px;
     }
+}
+
+@media screen and (max-width:350px) {
+    .smaller {
+        font-size: 17px;
+    }
+    .p-cus {
+        padding-bottom: 10px!important;
+
+    }
+
 }

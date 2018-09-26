@@ -3,7 +3,10 @@ html {
 }
 
 body {
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .row {
@@ -17,8 +20,9 @@ a {
 
 .font-comf {
     /*font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
-    /*font-family: 'IBM Plex Sans', sans-serif;*/
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 
 }
 
